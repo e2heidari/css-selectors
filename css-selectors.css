@@ -1,6 +1,6 @@
 body {
-    text-align: center;
-    font-family: Arial;
+
+    font: 1.1em/1.45 Cambria, Georgia Pro, Georgia, serif;
     margin: 0;
 }
 
@@ -24,7 +24,7 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     padding: 20px;
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)) 50% 80% / 115ch 1px no-repeat
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)) 50% 80% / 105ch 1px no-repeat;
 }
 
 .navbar a {
@@ -39,6 +39,28 @@ body {
     color: black;
 }
 
-a {
-    display: block;
+
+.mainpar {
+    padding: 0 22% 0 22%;
+}
+
+.footer {
+    padding: 50px 50px;
+    background: #ddd;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.footer div {
+    padding: 0 120px 0 0;
+}
+
+.footer ul {
+    list-style: none;
+}
+
+.smallpic {
+    height: 100px;
+    width: 140px;
 }
