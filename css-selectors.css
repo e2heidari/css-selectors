@@ -4,10 +4,6 @@ body {
     margin: 0;
 }
 
-* {
-    box-sizing: border-box;
-}
-
 .first {
     margin: 0;
     color: white;
@@ -60,7 +56,20 @@ body {
     list-style: none;
 }
 
-.smallpic {
+.smallpicL {
     height: 100px;
     width: 140px;
+    transform: rotate(7deg);
+    transform: rotate(7deg);
+}
+
+.smallpicR {
+    height: 100px;
+    width: 140px;
+    transform: rotate(-8deg);
+    transform: rotate(-8deg);
+}
+
+.pics {
+    padding: 20px 0 0 -40px;
 }
