@@ -50,6 +50,7 @@ body {
 
 .footer div {
     padding: 0 120px 0 0;
+    translate: 40px;
 }
 
 .footer ul {
