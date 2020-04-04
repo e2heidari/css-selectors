@@ -70,6 +70,6 @@ body {
     transform: rotate(-8deg);
 }
 
-.pics {
-    padding: 20px 0 0 -40px;
+.smallpics {
+    translate: -40px;
 }
