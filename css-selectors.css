@@ -37,24 +37,19 @@ body {
 
 
 .mainpar {
-    padding: 0 22% 0 22%;
+    padding: 0 22%;
 }
 
-.footer {
-    padding: 50px 50px;
+
+.row {
+    padding: 0 22%;
     background: #ddd;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
 }
 
-.footer div {
-    padding: 0 120px 0 0;
-    translate: 40px;
-}
-
-.footer ul {
-    list-style: none;
+.row column {
+    width: 33%;
 }
 
 .smallpicL {
